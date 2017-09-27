@@ -18,6 +18,8 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     // Do any additional setup after loading the view.
+    
+    //执行其他工程的任务 。
     ViewController *zzeViewController = [[ViewController alloc] init];
     [zzeViewController doActionA];
     [zzeViewController doActionB];
