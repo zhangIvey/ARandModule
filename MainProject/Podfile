@@ -7,6 +7,8 @@ target 'MainProject' do
 
   # Pods for MainProject
 
-pod "ZZeTestPod"
+pod ‘ZZeTestPod’
+pod 'ZZeActionA'
+pod 'ZZeActionB','0.0.3'
 
 end
