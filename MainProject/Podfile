@@ -6,15 +6,10 @@ target 'MainProject' do
   # use_frameworks!
 
   # Pods for MainProject
-<<<<<<< HEAD
 pod 'ZZeActionA','0.0.3'
 pod 'ZZeActionB','0.0.5'
 pod 'ZZeActionC','0.0.25'
-=======
 
-pod ‘ZZeTestPod’
-pod 'ZZeActionA'
-pod 'ZZeActionB','0.0.3'
 
 >>>>>>> f93ce975a6b4de9249eb50c36441f509cb1e511b
 
