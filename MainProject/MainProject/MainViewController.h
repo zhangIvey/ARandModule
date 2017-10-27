@@ -7,8 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <ZZeTestPod/ViewController.h>
+#import <A_optons.h>
+#import <B_options.h>
+#import <C_options.h>
+
 
 @interface MainViewController : UIViewController
+
+/**
+ 执行任务确定效果
+ */
+- (void)doMainThings;
 
 @end

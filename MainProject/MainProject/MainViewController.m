@@ -19,10 +19,20 @@
     self.view.backgroundColor = [UIColor whiteColor];
     // Do any additional setup after loading the view.
     
+    [self doMainThings];
+}
+
+- (void)doMainThings {
     //执行其他工程的任务 。
-    ViewController *zzeViewController = [[ViewController alloc] init];
-    [zzeViewController doActionA];
-    [zzeViewController doActionB];
+    A_optons *a = [A_optons new];
+    [a doActionA];
+    
+    B_options *b = [B_options new];
+    [b doSomething];
+    
+    C_options *c = [C_options new];
+    [c doSomething];
+    
 }
 
 - (void)didReceiveMemoryWarning {
